@@ -58,7 +58,7 @@
         "laravel-liberu/people": "^4.0",
         "laravel-liberu/permissions": "^5.0",
         "laravel-liberu/rememberable": "^3.0",
-        "laravel-liberu/roles": "^5.1.8",
+        "laravel-liberu/roles": "^5.1",
         "laravel-liberu/searchable": "^2.2",
         "laravel-liberu/sentry": "^1.0",
         "laravel-liberu/select": "^4.0",

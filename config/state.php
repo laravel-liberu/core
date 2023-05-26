@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'vendors' => ['laravel-enso'],
+    'vendors' => ['laravel-liberu'],
 ];
