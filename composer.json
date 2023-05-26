@@ -37,7 +37,6 @@
         "jenssegers/agent": "^2.6",
         "laravel/framework": "^10.0",
         "laravel/sanctum": "^3.2",
-        "laravel-liberu/action-logger": "^3.1",
         "laravel-liberu/avatars": "^4.0",
         "laravel-liberu/charts": "^4.0",
         "laravel-liberu/companies": "^4.0",
