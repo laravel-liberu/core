@@ -3,7 +3,7 @@
 namespace LaravelEnso\Core;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\ActionLogger\Http\Middleware\ActionLogger;
+// use LaravelEnso\ActionLogger\Http\Middleware\ActionLogger;
 use LaravelEnso\Core\Http\Middleware\EnsureFrontendRequestsAreStateful as Stateful;
 use LaravelEnso\Core\Http\Middleware\VerifyActiveState;
 use LaravelEnso\Core\Http\Middleware\XssSanitizer;
@@ -26,7 +26,7 @@ class MiddlewareServiceProvider extends ServiceProvider
 
         $this->app['router']->middlewareGroup('core', [
             VerifyActiveState::class,
-            ActionLogger::class,
+            // ActionLogger::class,
             Impersonate::class,
             VerifyRouteAccess::class,
             SetLanguage::class,
