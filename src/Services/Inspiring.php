@@ -9,7 +9,7 @@ class Inspiring
 {
     public static function quote(): string
     {
-        $quotes = Config::get('enso.inspiring.quotes');
+        $quotes = Config::get('liberu.inspiring.quotes');
 
         return Collection::wrap($quotes)->random();
     }

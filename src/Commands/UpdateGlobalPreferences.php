@@ -11,7 +11,7 @@ use LaravelLiberu\Core\Services\DefaultPreferences;
 
 class UpdateGlobalPreferences extends Command
 {
-    protected $signature = 'enso:preferences:update-global';
+    protected $signature = 'liberu:preferences:update-global';
 
     protected $description = 'Adds new global preferences keys for users';
 

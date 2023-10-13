@@ -7,7 +7,7 @@ use LaravelLiberu\Core\Services\Version as Service;
 
 class Version extends Command
 {
-    protected $signature = 'enso:version';
+    protected $signature = 'liberu:version';
 
     protected $description = 'Display framework version';
 

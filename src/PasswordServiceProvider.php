@@ -10,7 +10,7 @@ class PasswordServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $password = Config::get('enso.auth.password');
+        $password = Config::get('liberu.auth.password');
 
         Password::defaults(fn () => Password::min($password['minLength'])
             ->when($password['numeric'], fn ($pass) => $pass->numeric())

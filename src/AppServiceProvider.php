@@ -40,19 +40,19 @@ class AppServiceProvider extends ServiceProvider
 
     private function loadDependencies()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/inspiring.php', 'enso.inspiring');
+        $this->mergeConfigFrom(__DIR__.'/../config/inspiring.php', 'liberu.inspiring');
 
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'enso.config');
+        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'liberu.config');
 
-        $this->mergeConfigFrom(__DIR__.'/../config/auth.php', 'enso.auth');
+        $this->mergeConfigFrom(__DIR__.'/../config/auth.php', 'liberu.auth');
 
-        $this->mergeConfigFrom(__DIR__.'/../config/state.php', 'enso.state');
+        $this->mergeConfigFrom(__DIR__.'/../config/state.php', 'liberu.state');
 
         $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
 
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
 
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-enso/core');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-liberu/core');
 
         return $this;
     }
@@ -60,16 +60,16 @@ class AppServiceProvider extends ServiceProvider
     private function publishDependencies()
     {
         $this->publishes([
-            __DIR__.'/../config' => config_path('enso'),
-        ], ['core-config', 'enso-config']);
+            __DIR__.'/../config' => config_path('liberu'),
+        ], ['core-config', 'liberu-config']);
 
         $this->publishes([
             __DIR__.'/../resources/preferences.json' => resource_path('preferences.json'),
-        ], ['core-preferences', 'enso-preferences']);
+        ], ['core-preferences', 'liberu-preferences']);
 
         $this->publishes([
             __DIR__.'/../database/seeders' => database_path('seeders'),
-        ], ['core-seeders', 'enso-seeders']);
+        ], ['core-seeders', 'liberu-seeders']);
 
         return $this;
     }
@@ -78,11 +78,11 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/../resources/images' => resource_path('images'),
-        ], ['core-assets', 'enso-assets']);
+        ], ['core-assets', 'liberu-assets']);
 
         $this->publishes([
             __DIR__.'/../resources/views/mail' => resource_path('views/vendor/mail'),
-        ], ['core-email', 'enso-email']);
+        ], ['core-email', 'liberu-email']);
 
         return $this;
     }

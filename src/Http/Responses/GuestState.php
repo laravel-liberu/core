@@ -27,8 +27,8 @@ class GuestState implements Responsable
         return [
             'appName' => config('app.name'),
             'appUrl' => url('/').'/',
-            'extendedDocumentTitle' => config('enso.config.extendedDocumentTitle'),
-            'showQuote' => config('enso.config.showQuote'),
+            'extendedDocumentTitle' => config('liberu.config.extendedDocumentTitle'),
+            'showQuote' => config('liberu.config.showQuote'),
         ];
     }
 

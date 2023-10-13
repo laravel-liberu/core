@@ -20,13 +20,13 @@ class Meta implements ProvidesState
             'appName' => Config::get('app.name'),
             'appUrl' => url('/').'/',
             'csrfToken' => csrf_token(),
-            'dateFormat' => Config::get('enso.config.dateFormat'),
-            'dateTimeFormat' => Config::get('enso.config.dateFormat').' H:i:s',
+            'dateFormat' => Config::get('liberu.config.dateFormat'),
+            'dateTimeFormat' => Config::get('liberu.config.dateFormat').' H:i:s',
             'env' => App::environment(),
-            'extendedDocumentTitle' => Config::get('enso.config.extendedDocumentTitle'),
+            'extendedDocumentTitle' => Config::get('liberu.config.extendedDocumentTitle'),
             'quote' => Inspiring::quote(),
             'sentryDsn' => Config::get('sentry.dsn'),
-            'version' => Config::get('enso.config.version'),
+            'version' => Config::get('liberu.config.version'),
         ];
     }
 }

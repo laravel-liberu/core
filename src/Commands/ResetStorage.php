@@ -12,7 +12,7 @@ class ResetStorage extends Command
     private const Folders = ['avatars', 'exports', 'files', 'howToVideos', 'imports', 'pictures'];
     private const TestingFolder = 'testing';
 
-    protected $signature = 'enso:storage:reset {--include=}';
+    protected $signature = 'liberu:storage:reset {--include=}';
 
     protected $description = 'Run this after php artisan migrate:fresh to clear the storage';
 

@@ -3,9 +3,9 @@
     "description": "Main requirement & dependency aggregator for Laravel Enso",
     "keywords": [
         "laravel-liberu",
-        "enso-core",
+        "liberu-core",
         "laravel-boilerplate",
-        "enso-aggregator",
+        "liberu-aggregator",
         "vue-bulma",
         "vue-spa"
     ],

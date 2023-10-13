@@ -7,7 +7,7 @@ use LaravelLiberu\Core\Models\Preference;
 
 class ClearPreferences extends Command
 {
-    protected $signature = 'enso:preferences:clear';
+    protected $signature = 'liberu:preferences:clear';
 
     protected $description = 'Clears user preferences';
 

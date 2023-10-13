@@ -26,7 +26,7 @@ class LoginController extends Controller
 
     public function __construct()
     {
-        $this->maxAttempts = Config::get('enso.auth.maxLoginAttempts');
+        $this->maxAttempts = Config::get('liberu.auth.maxLoginAttempts');
     }
 
     protected function attemptLogin(Request $request)

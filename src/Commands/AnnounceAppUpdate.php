@@ -7,7 +7,7 @@ use LaravelLiberu\Core\Events\AppUpdate;
 
 class AnnounceAppUpdate extends Command
 {
-    protected $signature = 'enso:announce-app-update';
+    protected $signature = 'liberu:announce-app-update';
 
     protected $description = 'Notifies logged in users that the application has been updated';
 

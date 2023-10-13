@@ -20,7 +20,7 @@ class Builder
 
     private function sources(): Collection
     {
-        return Collection::wrap(Config::get('enso.state.vendors'))
+        return Collection::wrap(Config::get('liberu.state.vendors'))
             ->map(fn ($vendor) => base_path('vendor'.DIRECTORY_SEPARATOR.$vendor))
             ->map(fn ($vendor) => File::directories($vendor))
             ->flatten()

@@ -8,6 +8,6 @@ class Themes extends Enum
 {
     protected static function data(): array
     {
-        return config('enso.themes');
+        return config('liberu.themes');
     }
 }

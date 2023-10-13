@@ -15,7 +15,7 @@ trait HasPassword
 
     public function passwordExpired()
     {
-        $lifetime = (int) config('enso.auth.password.lifetime');
+        $lifetime = (int) config('liberu.auth.password.lifetime');
 
         return $lifetime > 0 && ($this->password_updated_at === null
             || now()->diffInDays($this->password_updated_at) > $lifetime);
@@ -23,7 +23,7 @@ trait HasPassword
 
     public function needsPasswordChange()
     {
-        return (int) config('enso.auth.password.lifetime') > 0
+        return (int) config('liberu.auth.password.lifetime') > 0
             && $this->password_updated_at !== null
             && $this->passwordExpiresIn() <= 3;
     }
@@ -31,7 +31,7 @@ trait HasPassword
     public function passwordExpiresIn()
     {
         return $this->password_updated_at
-            ->addDays((int) config('enso.auth.password.lifetime'))
+            ->addDays((int) config('liberu.auth.password.lifetime'))
             ->diffInDays(Carbon::now());
     }
 

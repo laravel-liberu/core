@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Http;
 
 class Version
 {
-    private const Endpoint = 'https://api.github.com/repos/laravel-enso/enso/releases/latest';
+    private const Endpoint = 'https://api.github.com/repos/laravel-liberu/liberu/releases/latest';
 
     private string $release;
 
@@ -19,7 +19,7 @@ class Version
 
     public function current(): string
     {
-        return Config::get('enso.config.version');
+        return Config::get('liberu.config.version');
     }
 
     public function isOutdated(): bool
