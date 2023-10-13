@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Core\Listeners;
+namespace LaravelLiberu\Core\Listeners;
 
 use Carbon\Carbon;
 

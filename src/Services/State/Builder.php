@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Core\Services\State;
+namespace LaravelLiberu\Core\Services\State;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;

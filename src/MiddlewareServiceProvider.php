@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelEnso\Core;
+namespace LaravelLiberu\Core;
 
 use Illuminate\Support\ServiceProvider;
-// use LaravelEnso\ActionLogger\Http\Middleware\ActionLogger;
-use LaravelEnso\Core\Http\Middleware\EnsureFrontendRequestsAreStateful as Stateful;
-use LaravelEnso\Core\Http\Middleware\VerifyActiveState;
-use LaravelEnso\Core\Http\Middleware\XssSanitizer;
-use LaravelEnso\Impersonate\Http\Middleware\Impersonate;
-use LaravelEnso\Localisation\Http\Middleware\SetLanguage;
-use LaravelEnso\Permissions\Http\Middleware\VerifyRouteAccess;
+// use LaravelLiberu\ActionLogger\Http\Middleware\ActionLogger;
+use LaravelLiberu\Core\Http\Middleware\EnsureFrontendRequestsAreStateful as Stateful;
+use LaravelLiberu\Core\Http\Middleware\VerifyActiveState;
+use LaravelLiberu\Core\Http\Middleware\XssSanitizer;
+use LaravelLiberu\Impersonate\Http\Middleware\Impersonate;
+use LaravelLiberu\Localisation\Http\Middleware\SetLanguage;
+use LaravelLiberu\Permissions\Http\Middleware\VerifyRouteAccess;
 
 class MiddlewareServiceProvider extends ServiceProvider
 {

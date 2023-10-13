@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Core\Services;
+namespace LaravelLiberu\Core\Services;
 
-use LaravelEnso\Helpers\Services\JsonReader;
+use LaravelLiberu\Helpers\Services\JsonReader;
 
 class DefaultPreferences
 {

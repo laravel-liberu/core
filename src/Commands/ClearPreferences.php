@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Core\Commands;
+namespace LaravelLiberu\Core\Commands;
 
 use Illuminate\Console\Command;
-use LaravelEnso\Core\Models\Preference;
+use LaravelLiberu\Core\Models\Preference;
 
 class ClearPreferences extends Command
 {

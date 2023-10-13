@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Core\Http\Controllers\Auth;
+namespace LaravelLiberu\Core\Http\Controllers\Auth;
 
 use Illuminate\Auth\Events\PasswordReset;
 use Illuminate\Foundation\Auth\ResetsPasswords;
@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
-use LaravelEnso\Core\Http\Requests\ValidatePassword;
+use LaravelLiberu\Core\Http\Requests\ValidatePassword;
 use Symfony\Component\HttpKernel\Exception\UnprocessableEntityHttpException;
 
 class ResetPasswordController extends Controller

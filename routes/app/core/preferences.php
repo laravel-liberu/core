@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Core\Http\Controllers\Preferences\Reset;
-use LaravelEnso\Core\Http\Controllers\Preferences\Store;
+use LaravelLiberu\Core\Http\Controllers\Preferences\Reset;
+use LaravelLiberu\Core\Http\Controllers\Preferences\Store;
 
 Route::prefix('preferences')
     ->as('preferences.')

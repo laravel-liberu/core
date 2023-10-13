@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Core\Http\Middleware;
+namespace LaravelLiberu\Core\Http\Middleware;
 
 class AuthorizationCookie
 {

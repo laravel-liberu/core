@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Core\State;
+namespace LaravelLiberu\Core\State;
 
 use Illuminate\Support\Facades\Auth;
-use LaravelEnso\Core\Contracts\ProvidesState;
+use LaravelLiberu\Core\Contracts\ProvidesState;
 
 class Preferences implements ProvidesState
 {

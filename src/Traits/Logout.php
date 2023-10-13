@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Core\Traits;
+namespace LaravelLiberu\Core\Traits;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

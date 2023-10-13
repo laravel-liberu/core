@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Core\Enums;
+namespace LaravelLiberu\Core\Enums;
 
-use LaravelEnso\Enums\Services\Enum;
+use LaravelLiberu\Enums\Services\Enum;
 
 class Themes extends Enum
 {

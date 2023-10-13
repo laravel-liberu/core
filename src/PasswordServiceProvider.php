@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Core;
+namespace LaravelLiberu\Core;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;

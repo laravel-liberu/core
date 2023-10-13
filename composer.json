@@ -69,20 +69,20 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Core\\": "src/",
-            "LaravelEnso\\Core\\Database\\Factories\\": "database/factories/",
-            "LaravelEnso\\Core\\Database\\Seeders\\": "database/seeders/"
+            "LaravelLiberu\\Core\\": "src/",
+            "LaravelLiberu\\Core\\Database\\Factories\\": "database/factories/",
+            "LaravelLiberu\\Core\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Core\\AppServiceProvider",
-                "LaravelEnso\\Core\\BroadcastServiceProvider",
-                "LaravelEnso\\Core\\EventServiceProvider",
-                "LaravelEnso\\Core\\PasswordServiceProvider",
-                "LaravelEnso\\Core\\MiddlewareServiceProvider",
-                "LaravelEnso\\Core\\WebsocketServiceProvider"
+                "LaravelLiberu\\Core\\AppServiceProvider",
+                "LaravelLiberu\\Core\\BroadcastServiceProvider",
+                "LaravelLiberu\\Core\\EventServiceProvider",
+                "LaravelLiberu\\Core\\PasswordServiceProvider",
+                "LaravelLiberu\\Core\\MiddlewareServiceProvider",
+                "LaravelLiberu\\Core\\WebsocketServiceProvider"
             ]
         }
     }

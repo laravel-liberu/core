@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Core\Contracts;
+namespace LaravelLiberu\Core\Contracts;
 
 interface ProvidesState
 {

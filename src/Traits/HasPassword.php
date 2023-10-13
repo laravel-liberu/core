@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Core\Traits;
+namespace LaravelLiberu\Core\Traits;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Hash;
-use LaravelEnso\Core\Notifications\ResetPassword;
+use LaravelLiberu\Core\Notifications\ResetPassword;
 
 trait HasPassword
 {

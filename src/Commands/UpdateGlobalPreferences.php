@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Core\Commands;
+namespace LaravelLiberu\Core\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\Core\Models\Preference;
-use LaravelEnso\Core\Services\DefaultPreferences;
+use LaravelLiberu\Core\Models\Preference;
+use LaravelLiberu\Core\Services\DefaultPreferences;
 
 class UpdateGlobalPreferences extends Command
 {

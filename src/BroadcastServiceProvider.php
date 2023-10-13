@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Core;
+namespace LaravelLiberu\Core;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Broadcast;

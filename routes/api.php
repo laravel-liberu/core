@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Core\Http\Controllers\Guest;
+use LaravelLiberu\Core\Http\Controllers\Guest;
 
 Route::prefix('api')
     ->group(function () {

@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Core\Http\Controllers;
+namespace LaravelLiberu\Core\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Core\Services\State\Builder;
+use LaravelLiberu\Core\Services\State\Builder;
 
 class Spa extends Controller
 {

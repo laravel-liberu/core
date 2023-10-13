@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Core\State;
+namespace LaravelLiberu\Core\State;
 
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Core\Contracts\ProvidesState;
-use LaravelEnso\Core\Facades\Websockets as Facade;
+use LaravelLiberu\Core\Contracts\ProvidesState;
+use LaravelLiberu\Core\Facades\Websockets as Facade;
 
 class Websockets implements ProvidesState
 {

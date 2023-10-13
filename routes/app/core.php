@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Core\Http\Controllers\Spa;
+use LaravelLiberu\Core\Http\Controllers\Spa;
 
 Route::prefix('core')
     ->as('core.')

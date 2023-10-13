@@ -1,19 +1,19 @@
 <?php
 
-namespace LaravelEnso\Core;
+namespace LaravelLiberu\Core;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Core\Commands\AnnounceAppUpdate;
-use LaravelEnso\Core\Commands\ClearPreferences;
-use LaravelEnso\Core\Commands\ResetStorage;
-use LaravelEnso\Core\Commands\UpdateGlobalPreferences;
-use LaravelEnso\Core\Commands\Version;
-use LaravelEnso\Core\Services\Websockets;
-use LaravelEnso\Helpers\Services\Dummy;
-use LaravelEnso\Helpers\Services\FactoryResolver;
+use LaravelLiberu\Core\Commands\AnnounceAppUpdate;
+use LaravelLiberu\Core\Commands\ClearPreferences;
+use LaravelLiberu\Core\Commands\ResetStorage;
+use LaravelLiberu\Core\Commands\UpdateGlobalPreferences;
+use LaravelLiberu\Core\Commands\Version;
+use LaravelLiberu\Core\Services\Websockets;
+use LaravelLiberu\Helpers\Services\Dummy;
+use LaravelLiberu\Helpers\Services\FactoryResolver;
 
 class AppServiceProvider extends ServiceProvider
 {

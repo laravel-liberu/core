@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Core\Http\Responses;
+namespace LaravelLiberu\Core\Http\Responses;
 
 use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Support\Collection;

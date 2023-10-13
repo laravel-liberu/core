@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Core\Database\Seeders;
+namespace LaravelLiberu\Core\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use LaravelEnso\Countries\Database\Seeders\CountrySeeder;
-use LaravelEnso\Localisation\Database\Seeders\LanguageSeeder;
-use LaravelEnso\Roles\Database\Seeders\RoleSeeder;
-use LaravelEnso\UserGroups\Database\Seeders\UserGroupSeeder;
-use LaravelEnso\Users\Database\Seeders\UserSeeder;
+use LaravelLiberu\Countries\Database\Seeders\CountrySeeder;
+use LaravelLiberu\Localisation\Database\Seeders\LanguageSeeder;
+use LaravelLiberu\Roles\Database\Seeders\RoleSeeder;
+use LaravelLiberu\UserGroups\Database\Seeders\UserGroupSeeder;
+use LaravelLiberu\Users\Database\Seeders\UserSeeder;
 
 class DatabaseSeeder extends Seeder
 {

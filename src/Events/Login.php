@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Core\Events;
+namespace LaravelLiberu\Core\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Models\User;
 
 class Login
 {

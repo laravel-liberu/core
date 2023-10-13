@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Core\Commands;
+namespace LaravelLiberu\Core\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;

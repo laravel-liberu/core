@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Core\State;
+namespace LaravelLiberu\Core\State;
 
-use LaravelEnso\Core\Contracts\ProvidesState;
-use LaravelEnso\Core\Enums\Themes as Enum;
+use LaravelLiberu\Core\Contracts\ProvidesState;
+use LaravelLiberu\Core\Enums\Themes as Enum;
 
 class Themes implements ProvidesState
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Core\State;
+namespace LaravelLiberu\Core\State;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Core\Contracts\ProvidesState;
-use LaravelEnso\Core\Services\Inspiring;
+use LaravelLiberu\Core\Contracts\ProvidesState;
+use LaravelLiberu\Core\Services\Inspiring;
 
 class Meta implements ProvidesState
 {

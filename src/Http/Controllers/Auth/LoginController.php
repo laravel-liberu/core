@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Core\Http\Controllers\Auth;
+namespace LaravelLiberu\Core\Http\Controllers\Auth;
 
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
@@ -8,10 +8,10 @@ use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Validation\ValidationException;
-use LaravelEnso\Core\Events\Login as Event;
-use LaravelEnso\Core\Traits\Login;
-use LaravelEnso\Core\Traits\Logout;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Core\Events\Login as Event;
+use LaravelLiberu\Core\Traits\Login;
+use LaravelLiberu\Core\Traits\Logout;
+use LaravelLiberu\Users\Models\User;
 
 class LoginController extends Controller
 {

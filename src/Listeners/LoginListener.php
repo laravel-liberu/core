@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Core\Listeners;
+namespace LaravelLiberu\Core\Listeners;
 
-use LaravelEnso\Core\Events\Login as Event;
-use LaravelEnso\Core\Models\Login;
-use LaravelEnso\Core\Notifications\PasswordExpiresSoon;
+use LaravelLiberu\Core\Events\Login as Event;
+use LaravelLiberu\Core\Models\Login;
+use LaravelLiberu\Core\Notifications\PasswordExpiresSoon;
 
 class LoginListener
 {

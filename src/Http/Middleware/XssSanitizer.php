@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Core\Http\Middleware;
+namespace LaravelLiberu\Core\Http\Middleware;
 
 use voku\helper\AntiXSS;
 

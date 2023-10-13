@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Core\Http\Controllers;
+namespace LaravelLiberu\Core\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Core\Http\Responses\GuestState;
+use LaravelLiberu\Core\Http\Responses\GuestState;
 
 class Guest extends Controller
 {

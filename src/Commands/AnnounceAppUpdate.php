@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Core\Commands;
+namespace LaravelLiberu\Core\Commands;
 
 use Illuminate\Console\Command;
-use LaravelEnso\Core\Events\AppUpdate;
+use LaravelLiberu\Core\Events\AppUpdate;
 
 class AnnounceAppUpdate extends Command
 {

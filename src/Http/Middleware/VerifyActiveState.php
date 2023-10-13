@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Core\Http\Middleware;
+namespace LaravelLiberu\Core\Http\Middleware;
 
 use Closure;
-use LaravelEnso\Core\Exceptions\Authentication;
-use LaravelEnso\Core\Traits\Logout;
+use LaravelLiberu\Core\Exceptions\Authentication;
+use LaravelLiberu\Core\Traits\Logout;
 
 class VerifyActiveState
 {

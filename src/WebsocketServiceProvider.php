@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\Core;
+namespace LaravelLiberu\Core;
 
 use Closure;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Core\Facades\Websockets;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Core\Facades\Websockets;
+use LaravelLiberu\Users\Models\User;
 
 class WebsocketServiceProvider extends ServiceProvider
 {

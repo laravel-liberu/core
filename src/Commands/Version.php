@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Core\Commands;
+namespace LaravelLiberu\Core\Commands;
 
 use Illuminate\Console\Command;
-use LaravelEnso\Core\Services\Version as Service;
+use LaravelLiberu\Core\Services\Version as Service;
 
 class Version extends Command
 {

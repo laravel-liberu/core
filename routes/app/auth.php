@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Core\Http\Controllers\Auth\ForgotPasswordController;
-use LaravelEnso\Core\Http\Controllers\Auth\LoginController;
-use LaravelEnso\Core\Http\Controllers\Auth\ResetPasswordController;
+use LaravelLiberu\Core\Http\Controllers\Auth\ForgotPasswordController;
+use LaravelLiberu\Core\Http\Controllers\Auth\LoginController;
+use LaravelLiberu\Core\Http\Controllers\Auth\ResetPasswordController;
 
 Route::middleware('api')
     ->group(function () {

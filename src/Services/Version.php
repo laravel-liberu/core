@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Core\Services;
+namespace LaravelLiberu\Core\Services;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Http;

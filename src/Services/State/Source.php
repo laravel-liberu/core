@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Core\Services\State;
+namespace LaravelLiberu\Core\Services\State;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
-use LaravelEnso\Core\Contracts\ProvidesState;
-use LaravelEnso\Helpers\Services\JsonReader;
+use LaravelLiberu\Core\Contracts\ProvidesState;
+use LaravelLiberu\Helpers\Services\JsonReader;
 use ReflectionClass;
 use Symfony\Component\Finder\SplFileInfo;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Core\Events;
+namespace LaravelLiberu\Core\Events;
 
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Broadcasting\PrivateChannel;

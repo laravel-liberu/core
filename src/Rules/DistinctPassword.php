@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Core\Rules;
+namespace LaravelLiberu\Core\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Models\User;
 
 class DistinctPassword implements Rule
 {
