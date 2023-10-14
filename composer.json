@@ -1,6 +1,6 @@
 {
     "name": "laravel-liberu/core",
-    "description": "Main requirement & dependency aggregator for Laravel Enso",
+    "description": "Main requirement & dependency aggregator for Laravel Liberu",
     "keywords": [
         "laravel-liberu",
         "liberu-core",
